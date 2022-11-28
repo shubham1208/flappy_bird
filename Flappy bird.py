@@ -171,6 +171,7 @@ def main():
     while run:
         clock.tick(30)
         for event in pygame.event.get():
+            # if event.key == pygame.K_SPACE:
             if event.type == pygame.QUIT:
                 run = False
         
